@@ -17,6 +17,18 @@
 
 .header {
   background-color: #393f4d;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.menu {
+  align-content: center;
+  margin-left: 20%;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .menu ul,
@@ -88,4 +100,8 @@
 .footer p {
   font-size: 13px;
   font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
 }
